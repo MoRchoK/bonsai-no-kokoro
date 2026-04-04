@@ -4,6 +4,8 @@ import lentaReducer from './slices/lentaSlice'
 import knowledgeReducer from './slices/knowledgeSlice'
 import communityReducer from './slices/communitySlice'
 import contestsReducer from './slices/contestsSlice'
+import profileReducer from './slices/profileSlice'
+import usersReducer from './slices/usersSlice'
 
 export const store = configureStore({
   reducer: {
@@ -12,6 +14,8 @@ export const store = configureStore({
     knowledge: knowledgeReducer,
     community: communityReducer,
     contests: contestsReducer,
+    profile: profileReducer,
+    users: usersReducer,
   },
 })
 

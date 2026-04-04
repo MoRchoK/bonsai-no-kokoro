@@ -7,6 +7,9 @@ import ChatBubbleOutlineIcon from '@mui/icons-material/ChatBubbleOutline'
 import AddIcon from '@mui/icons-material/Add'
 import PostCard from './PostCard'
 import { useAppSelector } from '../../store/hooks'
+import { useAppDispatch } from '../../store/hooks'
+import { selectUser } from '../../store/slices/usersSlice'
+import { useNavigate } from 'react-router-dom'
 
 const avatarInitial = (name: string) => name.charAt(0).toUpperCase()
 
@@ -29,6 +32,8 @@ const sectionLabel = (text: string) => (
 )
 
 const Community: React.FC = () => {
+  const navigate = useNavigate()
+  const dispatch = useAppDispatch()
   const { posts, topBloggers, latestComments } = useAppSelector((state) => state.community)
   const featured = posts[0]
   const rest = posts.slice(1)
@@ -155,6 +160,7 @@ const Community: React.FC = () => {
               {topBloggers.map((blogger, i) => (
                 <Box
                   key={blogger.id}
+                  onClick={() => { dispatch(selectUser(blogger.id)); navigate('/profile') }}
                   sx={{
                     display: 'flex',
                     alignItems: 'center',

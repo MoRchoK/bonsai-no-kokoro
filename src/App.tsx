@@ -7,6 +7,7 @@ import Lenta from './components/Lenta/Lenta'
 import Knowledge from './components/Knowledge/Knowledge'
 import Community from './components/Community/Community'
 import Contests from './components/Contests/Contests'
+import Profile from './components/Profile/Profile'
 import AuthModal from './components/Auth/AuthModal'
 import './App.css'
 
@@ -20,6 +21,7 @@ const App: React.FC = () => {
         <Route path="/knowledge" element={<Knowledge />} />
         <Route path="/community" element={<Community />} />
         <Route path="/contests" element={<Contests />} />
+        <Route path="/profile" element={<Profile />} />
       </Routes>
       <AuthModal />
     </Box>

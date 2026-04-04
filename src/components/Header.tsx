@@ -27,6 +27,7 @@ const navRoutes: NavRoute[] = [
   { label: 'Конкурсы',   path: '/contests' },
   { label: 'База знаний', path: '/knowledge' },
   { label: 'Сообщество', path: '/community' },
+  { label: 'Профиль', path: '/profile' },
 ]
 
 const navLinkSx = {
