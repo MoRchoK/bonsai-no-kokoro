@@ -34,7 +34,7 @@ const initialState: KnowledgeState = {
       excerpt: 'История и философия бонсай — от древнего Китая до наших дней.',
       section: 'Основы бонсай',
       difficulty: 'Начинающий',
-      image: '/src/assets/mainBonsay.png',
+      image: 'assets/mainBonsay.png',
       readTime: '5 мин',
     },
     {
@@ -43,7 +43,7 @@ const initialState: KnowledgeState = {
       excerpt: 'Как выбрать правильное дерево для начинающего и на что обратить внимание.',
       section: 'Основы бонсай',
       difficulty: 'Начинающий',
-      image: '/src/assets/mainBonsay.png',
+      image: 'assets/mainBonsay.png',
       readTime: '7 мин',
     },
     {
@@ -60,7 +60,7 @@ const initialState: KnowledgeState = {
       excerpt: 'Прямой ствол с симметричной кроной, напоминающей метлу.',
       section: 'Виды бонсай',
       difficulty: 'Средний',
-      image: '/src/assets/mainBonsay.png',
+      image: 'assets/mainBonsay.png',
       readTime: '6 мин',
     },
     {
@@ -69,7 +69,7 @@ const initialState: KnowledgeState = {
       excerpt: 'Классический вертикальный силуэт — символ силы и стабильности.',
       section: 'Виды бонсай',
       difficulty: 'Начинающий',
-      image: '/src/assets/mainBonsay.png',
+      image: 'assets/mainBonsay.png',
       readTime: '5 мин',
     },
     {
@@ -78,7 +78,7 @@ const initialState: KnowledgeState = {
       excerpt: 'Ветви ниспадают ниже края горшка, имитируя дерево на скалистом утёсе.',
       section: 'Виды бонсай',
       difficulty: 'Продвинутый',
-      image: '/src/assets/mainBonsay.png',
+      image: 'assets/mainBonsay.png',
       readTime: '8 мин',
     },
     {
@@ -103,7 +103,7 @@ const initialState: KnowledgeState = {
       excerpt: 'Когда и как правильно пересаживать, чтобы не навредить корневой системе.',
       section: 'Уход за бонсай',
       difficulty: 'Средний',
-      image: '/src/assets/mainBonsay.png',
+      image: 'assets/mainBonsay.png',
       readTime: '10 мин',
     },
     {
@@ -112,7 +112,7 @@ const initialState: KnowledgeState = {
       excerpt: 'Пошаговый мастер-класс по обматыванию ветвей медной или алюминиевой проволокой.',
       section: 'Мастер-классы',
       difficulty: 'Средний',
-      image: '/src/assets/mainBonsay.png',
+      image: 'assets/mainBonsay.png',
       readTime: '12 мин',
     },
     {

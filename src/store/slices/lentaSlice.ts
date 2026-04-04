@@ -24,7 +24,7 @@ const initialState: LentaState = {
       excerpt: 'Explore the ancient techniques behind cascade-style bonsai cultivation and discover how masters shape Juniper trees over decades of careful pruning.',
       date: '12 Mar 2026',
       category: 'Техника',
-      image: '/src/assets/mainBonsay.png',
+      image: 'assets/mainBonsay.png',
       featured: true,
     },
     {
@@ -33,7 +33,7 @@ const initialState: LentaState = {
       excerpt: 'A deep dive into the Shakan style — its origins, proportions, and the tools you need.',
       date: '10 Mar 2026',
       category: 'Стили',
-      image: '/src/assets/mainBonsay.png',
+      image: 'assets/mainBonsay.png',
       featured: false,
     },
     {
@@ -42,7 +42,7 @@ const initialState: LentaState = {
       excerpt: 'How to keep your bonsai thriving through every season without a greenhouse.',
       date: '8 Mar 2026',
       category: 'Уход',
-      image: '/src/assets/mainBonsay.png',
+      image: 'assets/mainBonsay.png',
       featured: false,
     },
     {
@@ -51,7 +51,7 @@ const initialState: LentaState = {
       excerpt: 'See the stunning trees submitted by our members this month and vote for your favourite.',
       date: '5 Mar 2026',
       category: 'Сообщество',
-      image: '/src/assets/mainBonsay.png',
+      image: 'assets/mainBonsay.png',
       featured: false,
     },
     {
@@ -60,7 +60,7 @@ const initialState: LentaState = {
       excerpt: 'Spring is the perfect time to repot. Here\'s everything you need to know before you start.',
       date: '2 Mar 2026',
       category: 'Уход',
-      image: '/src/assets/mainBonsay.png',
+      image: 'assets/mainBonsay.png',
       featured: false,
     },
   ],
