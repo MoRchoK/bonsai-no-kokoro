@@ -1,0 +1,45 @@
+<svg width="260" height="80" viewBox="0 0 260 80" xmlns="http://www.w3.org/2000/svg">
+    <!-- Фон (опционально, можно удалить rect) -->
+    <!-- <rect width="100%" height="100%" fill="#ffffff"/> -->
+
+    <!-- Крона бонсай -->
+    <path d="M40 20
+           C25 20 20 32 26 40
+           C18 44 20 56 32 58
+           C34 66 46 68 52 60
+           C64 62 72 54 70 46
+           C78 40 76 30 66 26
+           C62 16 48 14 40 20Z"
+          fill="#2f7d32"/>
+
+    <!-- Ствол -->
+    <path d="M42 56
+           C44 52 46 48 45 44
+           C44 40 46 38 50 36
+           C46 40 48 44 49 48
+           C50 52 50 56 52 60
+           L48 64
+           L42 64Z"
+          fill="#5a3b24"/>
+
+    <!-- Подставка -->
+    <rect x="28" y="64" width="32" height="4" rx="1.5" fill="#3c3c3c"/>
+    <rect x="24" y="68" width="40" height="4" rx="1.5" fill="#232323"/>
+
+    <!-- Текст -->
+    <text x="90" y="38"
+          font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+          font-size="22"
+          font-weight="700"
+          fill="#222222">
+        Bonsai Club
+    </text>
+
+    <text x="92" y="56"
+          font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+          font-size="12"
+          letter-spacing="1.5"
+          fill="#6b6b6b">
+        сообщество любителей бонсай
+    </text>
+</svg>
